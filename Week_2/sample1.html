@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<p>ajax example</p>
+<div id="demo"></div>
+<script>
+var xhttp=new XMLHttpRequest();
+url="http://w3schools.com/ajax/ajax_info.txt";
+xhttp.onreadystatechange = function(){
+if(xhttp.readyState==4 && xhttp.status==200){
+document.getElementById("demo").innerHTML=xhttp.responseText;
+}
+};
+xhttp.open("GET",url,true);
+xhttp.send();
+</script>
+</body>
+</html>
