@@ -1,0 +1,33 @@
+body {
+  background-color: pink;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: green;
+}
+.fi {
+  background-color: yellow;
+}
+.fi .se {
+  font-size: 20px;
+  background-color: lightblue;
+  font-color: red;
+}
+.fi .th {
+  background-color: lightorange;
+  font-color: black;
+}
+.tab table,
+.tab th,
+.tab td {
+  margin-left: 40%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.vid,
+nav,
+.res {
+  margin-left: 40%;
+}

@@ -1,0 +1,125 @@
+<html>
+<head>
+<title>
+HTML test page
+</title>
+<style>
+body {
+     background-color: lightblue;
+}
+.center{
+background-color:yellow;
+color:black;
+padding:10px;
+}
+#1 {
+	text-align:left;
+}
+#2 {
+    background-color:orange;
+    text-align: right;
+    color: blue;
+}
+table, th, td {
+    text-align:center;
+    border: 1px solid black;
+    border-collapse:collapse;
+    margin-left:150px;
+}
+</style>
+</head>
+<body>
+<form>
+<header style="color:red;text-align:center;">
+<h1>TUDIP</h1>
+<p>Emp Information</p></header>
+<div id="1" maxwidth="400px"><p class="center">FirstName<input type="text" name="firstname" value="abc" autofocus>
+LastName<input type="text" name="lastname" value="xyz">
+<br>
+Gender: <input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+<input type="radio" name="gender" value="other">Other<br>
+City: <select name="city">
+	<option value="pune">Pune</option>
+	<option value="mumbai">Mumbai</option>
+	<option value="satara">satara</option>
+	<option value="delhi">delhi</option>
+</select><br>
+<textarea name="message" rows="10" cols="30">
+I am from pune.</textarea><br>
+</div>
+<div id="2">
+<input list="travel" name="travel">
+Travel <datalist id="travel">
+	<option value="bus">
+	<option value="car">
+	<option value="bike">
+</datalist><br>
+<p>Encription<keygen name="security"><br>
+
+UserName<input type="text" name="username" required><br>
+
+Password<input type="password" name="pwd" required><br>
+
+<input type="checkbox" name="veh1" value="Bike">I have bike.<br>
+<input type="checkbox" name="veh2" value="car">i have car.<br>
+No of addresees(min1,max2)<input type="number" name="addresses" min="1" max="2"><br>
+Birthday<input type=date name="birthday"><br>
+Points<input type="range" name="points" min="0" max="10"><br>
+technologies
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+
+<input type="image" src="http://www.w3schools.com/html/img_submit.gif" alt="Submit" width="48" height="48">
+ Select a file: <input type="file" name="img">
+<input type="reset">
+<input type="submit" value="submit">
+</p>
+</div>
+<table style="width:30%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+</form>
+
+
+
+<video style="width:400;" controls>
+  <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<p>
+Video courtesy of
+<a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+<footer>
+  <p>Posted by: Abhijit Nale</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+</body>
+</html>

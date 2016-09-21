@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.relative {
+    position: relative;
+    width:95%;
+    height:700px;
+    border: 1px solid black;
+}
+
+.left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+}
+.right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+}
+.bleft {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+}
+.bright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 25%;
+    height: 25%;
+    border: 1px solid black;
+}
+.center{
+	position:absolute;
+	width:25%;
+	height:25%;
+	border-radius:50%;
+	border:1px solid black;
+	top:37.5%;
+	left:37.5%;
+}
+.circle{
+	border-radius:50%;
+}
+.ov{
+	border-radius:35%;
+}
+.rect{
+width:25%;
+height:20%;
+}
+</style>
+</head>
+<body>
+
+<div class="relative">
+  <div class="left">
+	<div class="left"></div>
+	<div class="right"></div>
+	<div class="bleft"></div>
+	<div class="bright"></div>
+	<div class="center"></div>
+  </div>
+  <div class="right">
+	<div class="left circle"></div>
+	<div class="right circle"></div>
+	<div class="bleft circle"></div>
+	<div class="bright circle"></div>
+	<div class="center circle"></div>
+  </div>
+  <div class="bleft">
+	<div class="left rect"></div>
+	<div class="right rect"></div>
+	<div class="bleft rect"></div>
+	<div class="bright rect"></div>
+  </div>
+  <div class="bright">
+	<div class="left ov"></div>
+	<div class="right ov"></div>
+	<div class="bleft ov"></div>
+	<div class="bright ov"></div>
+  </div>
+  <div class="center">
+  </div>
+</div>
+
+</body>
+</html>

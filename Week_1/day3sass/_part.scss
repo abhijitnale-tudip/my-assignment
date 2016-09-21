@@ -1,0 +1,18 @@
+$mar:600px;
+nav{
+padding-left:$mar;
+ul{
+color:red;
+}
+li{
+left:20px;}
+}
+.tab{
+padding-left:40%;
+}
+.res{
+@extend .tab;
+}
+.vid{
+@extend .res;
+}

@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>
+HTML test page
+</title>
+<style>
+p{
+text-align:center;
+color:red;
+}
+</style>
+</head>
+<body>
+<header>
+    <p><h1>TUDIP</h1></p>
+    <p>Self Information:</p>
+ </header>
+<form>
+<div>
+<p><span style="color:black;">span FirstName</span><input type="text" name="firstname" value="abc" autofocus>
+<br>
+LastName<input type="text" name="lastname" value="xyz">
+<br>
+<input type="radio" name="gender" value="male">  Male<br>
+<input type="radio" name="gender" value="female">Female<br>
+<input type="radio" name="gender" value="other"> Other<br>
+<select name="city">
+	<option value="pune">Pune</option>
+	<option value="mumbai">Mumbai</option>
+	<option value="satara">satara</option>
+	<option value="delhi">delhi</option>
+</select><br></p>
+</div>
+<p><textarea name="message" rows="10" cols="30">
+I am from pune.</textarea><br>
+
+<input list="travel" name="travel">
+
+<datalist id="travel">
+	<option value="bus">
+	<option value="car">
+	<option value="bike">
+</datalist><br>
+Encription<keygen name="security"><br>
+
+UserName<input type="text" name="username" required><br>
+
+Password<input type="password" name="pwd" required><br>
+
+<input type="checkbox" name="veh1" value="Bike">I have bike.<br>
+<input type="checkbox" name="veh2" value="car">i have car.<br>
+No of addresees(min1,max2)<input type="number" name="addresses" min="1" max="2"><br>
+Birthday<input type=date name="birthday"><br>
+Points<input type="range" name="points" min="0" max="10"><br>
+technologies
+<nav>
+  <a href="/html/">HTML</a> |
+  <a href="/css/">CSS</a> |
+  <a href="/js/">JavaScript</a> |
+  <a href="/jquery/">jQuery</a>
+</nav>
+<table style="width:50%;border:solid 2px red;">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+<input type="image" src="http://www.w3schools.com/html/img_submit.gif" alt="Submit" width="48" height="48">
+<input type="reset">
+<input type="submit" value="submit">
+</p>
+</form>
+
+
+
+<video width="400" controls>
+  <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+  <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  Your browser does not support HTML5 video.
+</video>
+
+<p>
+Video courtesy of
+<a href="http://www.bigbuckbunny.org/" target="_blank">Big Buck Bunny</a>.
+</p>
+<footer>
+  <p>Posted by: Abhijit Nale</p>
+  <p>Contact information: <a href="mailto:someone@example.com">
+  someone@example.com</a>.</p>
+</footer>
+</body>
+</html>

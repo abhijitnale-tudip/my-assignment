@@ -1,0 +1,20 @@
+@import 'part';
+$font-stack:    Helvetica, sans-serif;
+$primary-color: green;
+$bg-color: lightblue; 
+$border:1px solid black;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color:$bg-color;
+}
+table{
+	width:20%;
+	border-collapse:collapse;
+	th{
+	border:$border;
+	}
+	td{
+	border:$border;
+	}
+}
